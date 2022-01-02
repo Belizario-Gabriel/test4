@@ -69,8 +69,9 @@ article p{
 
         .img{
             text-align: center;
-            min-width: 150px;
-            max-width: 360px;
+            sizes="(max-width: 320px) 280px,
+            (max-width: 480px) 440px,
+            800px"
         }
 
         .videocon{
